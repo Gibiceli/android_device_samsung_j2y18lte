@@ -1,1 +1,4 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Gibiceli/android_device_samsung_j2y18lte" path="device/samsung/j2y18lte" remote="github" revision="main" />
+</manifest>
