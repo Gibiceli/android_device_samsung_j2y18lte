@@ -1,0 +1,25 @@
+# RIL (Red e Internet)
+lib/libsec-ril.so
+lib/libsec-ril-dsds.so
+bin/rild
+
+# Cámara (Archivos propietarios de Samsung/Qualcomm)
+lib/libexynoscamera.so
+lib/libexynosutils.so
+lib/libexynosv4l2.so
+vendor/lib/hw/camera.universal7570.so
+vendor/bin/hw/android.hardware.camera.provider@2.4-service
+
+# Audio
+vendor/lib/hw/audio.primary.msm8917.so
+vendor/etc/audio_effects.xml
+vendor/etc/audio_policy_configuration.xml
+
+# Gráficos y Sensores
+vendor/lib/hw/gralloc.msm8917.so
+vendor/lib/hw/hwcomposer.msm8917.so
+vendor/lib/hw/sensors.msm8917.so
+
+# Calibración
+cameradata/sensor_calib.bin
+saiv/image_tables.bin
