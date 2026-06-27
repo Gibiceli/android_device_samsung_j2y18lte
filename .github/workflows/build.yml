@@ -12,9 +12,6 @@ jobs:
           sudo rm -rf /usr/share/dotnet /usr/share/swift /usr/share/java /usr/share/sbt /usr/share/gradle /usr/share/ant /usr/share/maven /usr/local/lib/android /usr/local/share/boost /usr/local/share/powershell
           df -h
 
-      - name: Checkout Device Tree
-        uses: actions/checkout@v3
-
       - name: Setup Build Environment
         run: |
           sudo apt-get update
